@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-dv {
+    display: flex;
+    background-color: yellow;
+    background-image: radial-gradient(white,yellow);
+}
+.top-dv img {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    margin: 40px;
+    border: 5px solid black;
+}
+.top-dv section h1 {
+    text-align: center;
+    font-style: oblique;
+    padding-top: 20px;
+}
+.top-dv section p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 5px 8px 10px;
+}
+.top-dv section h2 {
+    text-align: center;
+    font-style: oblique;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.mid-dv {
+    display: flex;
+}
+.mid-dv .mid-left {
+    background-color: black;
+    color: white;
+    width:50%
+}
+.mid-dv .mid-left h3 {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+.mid-dv .mid-left .contact p {
+    padding-left: 60px;
+    line-height: 25px;
+}
+.mid-dv .mid-left .technical ul {
+    padding-left: 60px;
+    line-height: 25px;
+}
+.mid-dv .mid-left .personal ol {
+    padding-left: 60px;
+    line-height: 25px;
+}
+.mid-dv .mid-left .certification ul {
+    padding-left: 60px;
+    line-height: 25px;
+}
+.mid-dv .mid-left .language ol {
+    padding-left: 60px;
+    line-height: 25px;
+}
+.mid-dv .mid-left .hobbies ul {
+    padding-left: 60px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.mid-dv .mid-right {
+    width: 50%;
+    background-image: radial-gradient(white, rgb(119, 209, 240));
+}
+footer {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 8px;
+    background-image: repeating-linear-gradient(white,rgb(243, 101, 18));
+}
+.mid-dv .mid-right .education h2 {
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.mid-dv .mid-right h3 {
+    padding-left: 60px;
+    padding-bottom: 8px;
+}
+.mid-dv .mid-right p {
+    padding-left: 60px;
+    line-height: 25px;
+}
+.mid-dv .mid-right .ku h3 {
+    padding-top: 50px;
+}
+.mid-dv .mid-right .college h3 {
+    padding-top: 50px;
+}
+.mid-dv .mid-right .school h3 {
+    padding-top: 50px;
+}
+.mid-dv .mid-right .secschool h3 {
+    padding-top: 50px;
+}
